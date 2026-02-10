@@ -1,0 +1,7 @@
+{
+  "name": "NurSun Energy Projections",
+  "description": "A high-performance financial projection dashboard for commercial solar PV projects with interactive assumption modeling and AI-powered investment insights.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
