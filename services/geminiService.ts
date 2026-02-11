@@ -1,3 +1,2 @@
-
-// This service has been deprecated in favor of direct PVGIS technical benchmarks.
+// Deprecated: AI services have been removed in favor of direct technical benchmarks.
 export {};

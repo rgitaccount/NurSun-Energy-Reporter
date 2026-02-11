@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface SidebarProps {
@@ -11,8 +10,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
     { id: 'dashboard', label: 'Dashboard', icon: 'dashboard' },
     { id: 'performance', label: 'PV Performance', icon: 'solar_power' },
     { id: 'projections', label: 'Financial Projections', icon: 'trending_up' },
-    { id: 'documents', label: 'Project Documents', icon: 'folder' },
-    { id: 'analytics', label: 'Advanced Analytics', icon: 'query_stats' },
+    { id: 'documents', label: 'Project Database', icon: 'folder' },
     { id: 'settings', label: 'Settings', icon: 'settings' },
   ];
 
@@ -52,7 +50,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
       <div className="mt-auto p-6">
         <div className="p-4 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-100 dark:border-slate-800">
           <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-2">Help Center</p>
-          <p className="text-[11px] text-slate-500 leading-relaxed mb-3">Need assistance with your financial modeling?</p>
+          <p className="text-[11px] text-slate-500 leading-relaxed mb-3">Questions about the technical modeling assumptions?</p>
           <button className="w-full py-2 bg-white dark:bg-slate-800 text-[10px] font-bold uppercase tracking-widest text-primary border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-all">
             Contact Support
           </button>
